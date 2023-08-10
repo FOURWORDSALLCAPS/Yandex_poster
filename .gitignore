@@ -131,4 +131,5 @@ cython_debug/
 
 # PyCharm
 .idea/
+images/
 .DS_Store
