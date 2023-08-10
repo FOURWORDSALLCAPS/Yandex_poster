@@ -21,7 +21,7 @@ class Image(models.Model):
         related_name='images',
         verbose_name='Место'
     )
-    imgs = models.ImageField('Картинка')
+    imgs = models.ImageField('Картинка', upload_to='media/')
 
     class Meta:
         ordering = ['order']
