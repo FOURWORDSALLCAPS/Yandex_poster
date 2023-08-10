@@ -14,7 +14,7 @@ class Place(models.Model):
 
 class Image(models.Model):
     title = models.CharField('Название', max_length=200)
-    imgs = models.ImageField('Картинка', upload_to='images/')
+    imgs = models.ImageField('Картинка', upload_to='media/')
 
     def __str__(self):
         return self.title
